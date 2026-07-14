@@ -1,6 +1,6 @@
 # Implementation Documentation
 
-This directory contains step-by-step implementation notes for the Azure Secure Landing Zone and Threat Detection Lab.
+This directory will contain step-by-step implementation notes for the Azure Secure Landing Zone and Threat Detection Lab.
 
 The documentation will record how each component is configured, why particular settings were selected and how the implementation was validated.
 
@@ -17,7 +17,7 @@ The documentation will record how each component is configured, why particular s
 - Log Analytics workspace deployment
 - Azure Monitor diagnostic settings
 - Microsoft Defender for Cloud configuration
-- Microsoft Sentinel deployment, where applicable
+- Optional Microsoft Sentinel deployment, where applicable
 - Bicep deployment and validation
 - Resource cleanup procedures
 

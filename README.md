@@ -2,9 +2,11 @@
 
 ## Overview
 
-This project demonstrates the design, deployment and security monitoring of a small Azure environment for a fictional technology company.
+This project is being developed to demonstrate the design, secure deployment and security monitoring of a small Azure environment for a fictional technology company.
 
-The environment is designed around the principles of least privilege, network segmentation, centralised logging, secure configuration and repeatable infrastructure deployment.
+The planned environment is designed around the principles of least privilege, network segmentation, centralised logging, secure configuration and repeatable infrastructure deployment.
+
+This is a small personal Azure security lab for learning and portfolio development. It is not a full enterprise-scale Microsoft Azure landing zone.
 
 ## Project Objectives
 
@@ -43,7 +45,7 @@ The planned environment will include:
 - Azure Monitor
 - Log Analytics
 - Microsoft Defender for Cloud
-- Microsoft Sentinel
+- Microsoft Sentinel (optional and planned)
 - Kusto Query Language
 - Bicep
 - GitHub
@@ -54,7 +56,6 @@ The planned environment will include:
 - `docs/` – Architecture, implementation notes and security findings
 - `detections/` – KQL queries and detection documentation
 - `scripts/` – Deployment and cleanup utilities
-- `.github/` – GitHub workflow configuration
 
 ## Project Status
 
@@ -63,7 +64,7 @@ The planned environment will include:
 Current tasks:
 
 - [ ] Create architecture diagram
-- [ ] Define security requirements
+- [x] Define security requirements
 - [ ] Create Bicep project structure
 - [ ] Configure Azure cost controls
 - [ ] Deploy initial network resources
@@ -74,6 +75,6 @@ Current tasks:
 
 ## Security and Cost Notice
 
-This project is built only within an authorised personal Azure lab environment.
+This project is planned for implementation only within an authorised personal Azure lab environment.
 
-No production systems, third-party systems or real customer data are used. Secrets and credentials are not committed to this repository. Azure resources are deployed within a dedicated resource group and removed after testing where appropriate.
+No production systems, third-party systems or real customer data will be used. Secrets and credentials must not be committed to this repository. Any Azure resources created for the lab will be deployed within a dedicated resource group and removed after testing where appropriate.

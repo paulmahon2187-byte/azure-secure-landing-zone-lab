@@ -1,6 +1,6 @@
 # Azure Cleanup Scripts
 
-This directory contains scripts used to remove temporary Azure resources and reduce the risk of unexpected charges.
+This directory will contain scripts used to remove temporary Azure resources and reduce the risk of unexpected charges.
 
 Cleanup scripts must be reviewed carefully before execution.
 

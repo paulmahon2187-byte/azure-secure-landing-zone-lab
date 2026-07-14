@@ -1,6 +1,6 @@
 # Project Screenshots
 
-This directory contains screenshots used as evidence throughout the Azure Secure Landing Zone and Threat Detection Lab.
+This directory will contain screenshots used as evidence throughout the Azure Secure Landing Zone and Threat Detection Lab.
 
 Screenshots may demonstrate resource configuration, successful deployment, security findings, remediation and monitoring results.
 

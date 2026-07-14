@@ -1,6 +1,6 @@
 # KQL Security Detections
 
-This directory contains Kusto Query Language queries developed for security monitoring and investigation within the Azure lab.
+This directory will contain Kusto Query Language queries developed for security monitoring and investigation within the Azure lab.
 
 Each query will include an explanation of its purpose, required log source and expected output.
 

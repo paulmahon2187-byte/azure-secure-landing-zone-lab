@@ -1,6 +1,6 @@
 # Security Findings
 
-This directory contains security findings identified during the assessment of the Azure lab environment.
+This directory will contain security findings identified during the assessment of the Azure lab environment.
 
 Findings will document insecure configurations, associated risks, evidence, remediation actions and validation results.
 

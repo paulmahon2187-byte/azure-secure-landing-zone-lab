@@ -1,6 +1,6 @@
 # Azure Infrastructure as Code
 
-This directory contains the Bicep templates used to deploy the Azure Secure Landing Zone and Threat Detection Lab.
+This directory will contain the Bicep templates used to deploy the Azure Secure Landing Zone and Threat Detection Lab.
 
 The infrastructure code is intended to provide a repeatable, documented and security-focused deployment process.
 

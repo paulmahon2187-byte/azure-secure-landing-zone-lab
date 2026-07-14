@@ -62,6 +62,7 @@ flowchart TB
             Storage[Secure Storage Account]
             KeyVault[Azure Key Vault]
             Logs[Log Analytics Workspace]
+            TrafficAnalytics[Optional Traffic Analytics]
         end
     end
 
@@ -71,4 +72,11 @@ flowchart TB
     NSGW --- Workload
     Storage -. Diagnostic logs .-> Logs
     KeyVault -. Diagnostic logs .-> Logs
-    VNet -. Network flow logs .-> Logs
+    VNet -. Virtual Network flow logs .-> Storage
+    Storage -. Optional flow-log processing .-> TrafficAnalytics
+    TrafficAnalytics -. Processed network insights .-> Logs
+```
+
+Virtual Network flow logs will be written to the secure Storage account rather than directly to Log Analytics. Traffic Analytics may optionally process the stored flow-log data and make network insights available through the Log Analytics workspace.
+
+Virtual Network flow-log collection, Storage retention, optional Traffic Analytics processing and Log Analytics ingestion or retention may each generate charges. These features will be enabled only when required for a controlled lab exercise and after their cost implications have been reviewed.

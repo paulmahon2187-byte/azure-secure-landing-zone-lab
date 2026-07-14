@@ -212,7 +212,7 @@ The design will follow these principles:
 | COST-02 | Expensive resources must not remain deployed unnecessarily. |
 | COST-03 | Temporary workloads must be stopped or deleted after testing. |
 | COST-04 | The project must document resources that may generate ongoing charges. |
-| COST-05 | Microsoft Sentinel and paid Defender plans must not be enabled without reviewing their cost implications. |
+| COST-05 | Optional Microsoft Sentinel components and paid Defender plans must not be enabled without reviewing their cost implications. |
 | COST-06 | The environment must support removal through deletion of the dedicated resource group. |
 | COST-07 | Cost alerts must not be treated as automatic spending limits. |
 
@@ -293,7 +293,7 @@ The project will be considered successful when:
 
 Possible future improvements include:
 
-- Microsoft Sentinel analytics rules
+- Optional Microsoft Sentinel analytics rules
 - Automated deployment through GitHub Actions
 - Private endpoints
 - Azure Policy
